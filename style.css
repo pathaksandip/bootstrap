@@ -1,0 +1,14 @@
+.navtop {
+  width: 100%;
+  height: fit-content;
+  background-image: url("images/backgroundimage.jpg");
+  background-position: center;
+  position: relative;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
