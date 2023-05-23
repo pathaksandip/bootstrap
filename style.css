@@ -1,14 +1,59 @@
 .navtop {
-  width: 100%;
-  height: fit-content;
   background-image: url("images/backgroundimage.jpg");
-  background-position: center;
-  position: relative;
+  height: 550px;
+  width: 100%;
+  border-bottom: 1px, solid #eeecec;
 }
 
 .nav-bar {
   display: flex;
-  justify-content: space-evenly;
 }
-
-
+.nav-left {
+  margin-right: 50%;
+}
+.navbar-brand {
+  margin-left: 20px;
+}
+.nav-left,
+a {
+  margin-top: 15px;
+}
+.nav-right {
+  position: fixed;
+  top: 16px;
+  right: 15px;
+  align-items: center;
+}
+.signup,
+a {
+  text-decoration: none;
+  color: azure;
+  font-size: 15px;
+}
+.btn-primary {
+  font-size: 20px;
+  color: rgba(244, 230, 203, 0.881);
+  margin-left: 15px;
+  background-color: black;
+  padding: 10px;
+}
+.btn-primary:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+.bi-list {
+  margin-left: 10px;
+  font-size: 30px;
+  color: aliceblue;
+  margin-top: 10px;
+}
+.welcome {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
